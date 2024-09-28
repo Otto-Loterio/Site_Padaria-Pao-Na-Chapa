@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-color:  rgba(233, 202, 136, 0.712)
+}
+
+header {
+    background-color: rgba(97, 53, 24, 0.712);
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header{
+    width: 25%;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li a{
+    color:rgba(255, 255, 255, 0.795);
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#introducao{
+    display: flex;
+    height: 250px;
+    align-items: center;
+}
+
+#introducao div{
+    width: 50%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 50px;
+}
+
+#sobre-nos{
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    
+}
+
+#produtos{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#produtos h2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.conteudo-produtos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.produto{
+    width: 200px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(53, 16, 1);
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding-top: 25px;
+}
+
+footer p{
+    margin: 0;
+}
+
+.direitos-autorais{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: "Fredoka", sans-serif;
+}

@@ -5,44 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pão na chapa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+    <header>
+        <img class="logo-header" src="img/logo.png" alt="Pão, Pão na Chapa,Logo, Logo Padaria" />
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#introducao">Início</a>
+                </li>
+
+                <li>
+                    <a href="#sobre-nos">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#produtos">Produtos</a>
+                </li>
+
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <header>
-            <h1>Padaria pão na chapa</h1>
-
-            <nav>
-                <ul>
-                    <li>
-                        <a>Inicio</a>
-                    </li>
-
-                    <li>
-                        <a>Sobre</a>
-                    </li>
-
-                    <li>
-                        <a>Produtos</a>
-                    </li>
-
-                    <li>
-                        <a>Contato</a>
-                    </li>
-                </ul>
-            </nav>
-
-        </header>
-        <section>
-            <h2>Bem vindo(a) ao site da Padaria Pão na Chapa</h2>
-            <p>Na Padaria Pão na Chapa, oferecemos o melhor pão caseiro,
-                assado diaramente com ingrediantes frescos e de alta qualidade.
-                Aqui encontra aquele pão quentinho,
-                crocante pro fora e macio por dentro,
-                além de uma variedade de deliciosos produtos!
-            </p>
+        <section id="introducao">
+            <div>
+                <h2>Bem vindo(a) ao site da Padaria Pão na Chapa</h2>
+                <p>Na Padaria Pão na Chapa, oferecemos o melhor pão caseiro,
+                    assado diaramente com ingrediantes frescos e de alta qualidade.
+                    Aqui encontra aquele pão quentinho,
+                    crocante pro fora e macio por dentro,
+                    além de uma variedade de deliciosos produtos!
+                </p>
+            </div>
+            <div>
+                <img width="300px" src="./img/pao.png" alt="pão, cesta de pães" />
+            </div>
         </section>
-        <section>
+        <section id="sobre-nos">
             <h2>Sobre nós</h2>
             <p>
                 Fundada em 1930, a Padaria Pão na Chapa é refêrencia
@@ -52,30 +61,46 @@
                 para aquele café da manhã especial ou para o lanche da tarde.
             </p>
         </section>
-        <section>
+        <section id="produtos">
             <h2>Produtos</h2>
-            <div>
-                <div>
+            <div class="conteudo-produtos">
+                <div class="produto">
                     <h3>Pães</h3>
                     <p>
-                        O classico da casa os pães! Temos grande variedade de pães como o francês, carteiro, de banha, baguetes, e outras deliciosidades!
+                        O classico da casa os pães! Temos grande variedade de pães como o francês, carteiro, de banha,
+                        baguetes, e outras deliciosidades!
                     </p>
                 </div>
-                <div>
+                <div class="produto">
                     <h3>Doces</h3>
                     <p>
-                        Temos muitos doces delicíosos de dar água na boca! como sonhos de creme e de doce de leite, carolinas, vanderleias, rosquinhas e muito mais!
+                        Temos muitos doces delicíosos de dar água na boca! como sonhos de creme e de doce de leite,
+                        carolinas, vanderleias, rosquinhas e muito mais!
                     </p>
                 </div>
+                <div class="produto">
                     <h3>Salgados</h3>
                     <p>
-                        O nosso forte os salgados! Temos coxinhas, kibes, pães de queijo, enroladinho de salsicha, bolinha de queijo e outras demais gostosuras!
+                        O nosso forte os salgados! Temos coxinhas, kibes, pães de queijo, enroladinho de salsicha,
+                        bolinha
+                        de queijo e outras demais gostosuras!
                     </p>
-                <div>
+
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Email: contato@paonachapa.com</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>Endereço: Rua do Pão, 123 - Centro - São Paulo</p>
+        </section>
+        <p class="direitos-autorais">&copy; 2024 - Padaria Pão na Chapa -
+            Todos Direitos Reservados</p>
+    </footer>
+
 </body>
 
 </html>
